@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header h1{
+             text-shadow: 25px black;
+             text-rendering: geometricPrecision;
+             border-style: groove;
+             border-radius: 30px;
+             color: blue;
+             justify-content: space-around;
+             font-family: cursive;
+         }
+         .navig{
+            text-align: right;
+            padding-top: 30px;
+            padding-right: 30px;
+            padding-inline: 30px;
+            word-spacing: 10px;
+         }
+         .navig a{
+             align-items: end;
+             text-align: right;
+             text-decoration: none;
+             color: black;
+             font-family: cursive;
+             font-size: small;
+         }
+         .navig a:hover{
+             transform: 0.4s;
+             display: flexbox;
+             color: crimson;
+             transform-box: view-box;
+            
+         }
+         .my{
+            border-radius: 30px;
+            float:right;
+            padding-top: 200px;
+            padding-right: 25px;
+            height: 400px;
+            width: 800px;
+        }
+        .cont{
+            display: grid;
+        }
+     .p{
+            color: black;
+            text-align: justify;
+            font-size: 25px;
+            font-family: cursive;
+            
+        }
+       .full{
+            background-image: url(back.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            backface-visibility: hidden;
+            background-size: 500px;
+            border-radius: 30px;
+       }
+         </style>
+</head>
+<body>
+    <header>
+        <h1 align="center">PORTFOLIO</h1>
+    </header>
+    <div class="navig">
+        <nav>
+            <a href="index.html">HOME</a>&nbsp;
+            <a href="home.html">ABOUT</a>&nbsp;
+            <a href="educ.html">EDUCATION</a>&nbsp;
+            <a href="co.html">CAREEROBJECTIVES</a>&nbsp;
+            <a href="proj.html">PROJECTS</a>&nbsp;
+            <a href="cert.html">CERTIFICATIONS</a>
+        </nav>
+    </div>&nbsp;&nbsp;&nbsp;
+    <div class="full">
+        <div class="cont">
+        <div class="mainb">
+            <main>
+                <img src="LOGO.png" alt="LOGO" style="height: 100px;width: 250px;padding-left: 20px;">&nbsp;
+                <img class="my"src="ed.jpg" alt="My photo" style="height: 250;width: 400px;">
+            </main>
+            <div class="p">
+            <p>
+                <u><h3>Education Details</h3></u>
+             <section>
+                <table align="center" border="5px" cellspacing="5px" height="300" >
+     
+                 <tr>
+                     <th>S.NO</th>
+                     <th>Qualification</th>
+                     <th>Institution Name</th>
+                     <th>Year of Passing</th>
+                     <th>Percentage/CGPA</th>
+                 </tr>
+                 <tr>
+                     <td>1</td>
+                     <td>B-TECH</td>
+                     <td>VARDHAMAN COLLEGE OF ENGINEERING</td>
+                     <td>2024</td>
+                     <td>9.15</td>
+                 </tr>
+                 <tr>
+                     <td>2</td>
+                     <td>INTERMEDIATE</td>
+                     <td>SRI CHAITANYA JUNIOR COLLEGE</td>
+                     <td>2020</td>
+                     <td>98.1%</td>
+                 </tr>
+                 <tr>
+                     <td>3</td>
+                     <td>10TH</td>
+                     <td>SRI CHAITANYA HIGH SCHOOL</td>
+                     <td>2018</td>
+                     <td>9.8</td>
+                 </tr>
+                </table>
+             </section></p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

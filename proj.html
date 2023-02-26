@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       header h1{
+            text-shadow: 25px black;
+            text-rendering: geometricPrecision;
+            border-style: groove;
+            border-radius: 30px;
+            color: blue;
+            justify-content: space-around;
+            font-family: cursive;
+        }
+        .navig{
+           text-align: right;
+           padding-top: 30px;
+           padding-right: 30px;
+           padding-inline: 30px;
+           word-spacing: 10px;
+        }
+        .navig a{
+            align-items: end;
+            text-align: right;
+            text-decoration: none;
+            color: black;
+            font-family: cursive;
+            font-size: small;
+        }
+        .navig a:hover{
+            transform: 0.4s;
+            display: flexbox;
+            color: crimson;
+            transform-box: view-box;
+           
+        }
+        .my{
+            border-radius: 30px;
+            float:right;
+
+            padding-right: 25px;
+            height: 300px;
+            width: 800px;
+        }
+        .cont{
+            display: grid;
+        }
+     .p{
+            color: black;
+            text-align: justify;
+            font-size: 25px;
+            font-family: cursive;
+            
+        }
+       .full{
+            background-image: url(back.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            backface-visibility: hidden;
+            background-size: 500px;
+            border-radius: 30px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 align="center">PORTFOLIO</h1>
+    </header>
+    <div class="navig">
+        <nav>
+            <a href="index.html">HOME</a>&nbsp;
+            <a href="home.html">ABOUT</a>&nbsp;
+            <a href="educ.html">EDUCATION</a>&nbsp;
+            <a href="co.html">CAREEROBJECTIVES</a>&nbsp;
+            <a href="proj.html">PROJECTS</a>&nbsp;
+            <a href="cert.html">CERTIFICATIONS</a>
+            
+        </nav>
+    </div>&nbsp;&nbsp;&nbsp;
+    &nbsp;
+    <div class="full">
+    <div class="cont">
+    <div class="mainb">
+        <main>
+            <img src="LOGO.png" alt="LOGO" style="height: 100px;width: 250px;padding-left: 20px;">&nbsp;
+            <img class="my"src="pr.jpg" alt="My photo" style="height: 250;width: 400px;">
+        </main>
+        <div class="p">
+        <p>
+            <u><h3>My Projects</h3></u>
+            <section>
+                <table align="center" height="300"  border="5px" cellspacing="5px">
+                    <tr>
+                        <th>S.NO</th>
+                        <th>PROJECT NAME</th>
+                        <th>ABSTRACT</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>QUEUE MANAGEMENT SYSTEM</td>
+                        <td align="justify"><p style="font-size: 20px;">This project reduces the cost of prior 
+                            equipment installation or subscription. 
+                            To implement solution for this type of 
+                            problem without web services. To 
+                            increase productivity and to reduce 
+                            waiting. To provide comfort and to allow 
+                            better service or achieve higher 
+                            efficiency.</p></td>
+                            
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>IMAGE CLASSIFICATION</td>
+                        <td align="justify"><p style="font-size: 20px;">Image Classification nowadays is used to 
+                            narrow the gap between the computer 
+                            vision and human vision so that the 
+                            images can be recognized by machines in 
+                            the same way as we humans do. It deals 
+                            with assigning the appropriate class for 
+                            the given image.</p>
+                            </td>
+                           
+                    </tr>
+                </table>
+            </section></p>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
